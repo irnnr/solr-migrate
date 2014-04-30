@@ -9,3 +9,6 @@ Migrates stopwords.txt file. Takes the core configuration folder as starting poi
 Usage:
 `$  migratestopwords.rb path/to/solr/core/conf/folder`
 
+## migratesynonyms
+
+... watch this place, coming in the next days
