@@ -33,7 +33,7 @@ unless ARGV.first
 end
 
 conf_folder = File.absolute_path(ARGV.first)
-Dir.glob("**/stopwords.txt") do |stopwords_file_path|
+Dir.glob("#{conf_folder}/**/stopwords.txt") do |stopwords_file_path|
   language = stopwords_file_path.scan(%r|.*/(.*)/.*|).first.first
 
   stopwords_file = File.open(stopwords_file_path)
