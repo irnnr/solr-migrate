@@ -11,4 +11,4 @@ Usage:
 
 ## migratesynonyms
 
-... watch this place, coming in the next days
+... watch this place
